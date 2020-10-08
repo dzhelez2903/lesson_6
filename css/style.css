@@ -31,25 +31,20 @@ h1 {
 }
 
 p {
-    font-family: PT Sans;
+    font-family: PT Sans, sans-serif;
     font-size: 18pt;
     font-weight: normal;
     color: #999999;
     margin: 0px;
-    display: block;
-}
+  }
 
 #big {
     height: 556px;
-}
-
-div {
     width: 1280px;
     height: 556px;
     margin: auto;
     background-image: url(/img/line.png);
-    align-items: center;
-}
+    }
 
 ul {
     margin: auto;
@@ -64,18 +59,32 @@ ul {
     height: 420px;
     text-align: center;
     vertical-align: middle;
+    padding-top: 55px;
 }
 
 .list p {
-    font-family: PT Sans;
+    font-family: PT Sans, sans-serif;
     font-size: 12pt;
     color: #777777;
 
 }
 
-.list h {
-    font-family: PT Sans;
+.list h2 {
+    font-family: PT Sans, sans-serif;
     font-size: 21pt;
-    color: #777777;
+    color: black;
+}
 
+div#big ul li.list:hover {
+    background-color: rgba(14, 200, 203, 0.308);
+    color: white;
+}
+
+div#big ul li.list:hover svg path{
+    fill: white;
+}
+div#big ul li.list:hover p,
+div#big ul li.list:hover h2
+{
+    color: white;
 }
