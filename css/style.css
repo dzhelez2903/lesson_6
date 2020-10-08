@@ -6,7 +6,7 @@ header {
     width: 1280px;
     height: 420px;
     margin: auto;
-    background-image: url(./img/line.png);
+    background-image: url('../img/line.png');
     text-align: center;
     padding-top: 145px;
 }
@@ -43,7 +43,7 @@ p {
     width: 1280px;
     height: 556px;
     margin: auto;
-    background-image: url(./img/line.png);
+    background-image: url('../img/line.png');
     }
 
 ul {
